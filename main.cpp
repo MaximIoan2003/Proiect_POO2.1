@@ -57,7 +57,7 @@ public:
 
     Catalog_online() :nume(""), adresa("") {}
 
-    Catalog_online(int age, const std::string& name, const std::string& adress) : nume(name),adresa(adress) {}
+    Catalog_online(const std::string& name, const std::string& adress) : nume(name),adresa(adress) {}
 
     Catalog_online(const Catalog_online& Main2) : nume(Main2.nume), adresa(Main2.adresa) {}
 
