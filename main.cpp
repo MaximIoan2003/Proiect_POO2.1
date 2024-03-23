@@ -230,7 +230,7 @@ int main()
     D.comanda();
 
     //operator /
-    Marfa K = B / 2;
+    // Marfa K = B / 2;
     //D.adaugare_medicamente(K);
 
     /*1.Sesiune incepe cu adaugarea numelui si adresa(puteti adauga numele/adresa din mai multe
