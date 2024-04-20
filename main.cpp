@@ -3,6 +3,9 @@
 #include <vector>
 #include <CATALOGONLINE.h>
 #include <TERMOMETRU.h>
+#include <TERMOMETRUELECTRIC.h>
+#include <TERMOMETRUALCOOLLEMN.h>
+#include <MARFA.h>
 
 int main()
 {
