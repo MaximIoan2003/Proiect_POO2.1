@@ -47,6 +47,13 @@ int main()
     Termometru_alcool_lemn* p3 = dynamic_cast<Termometru_alcool_lemn*>(p1);
     Termometru_electric* p4 = dynamic_cast<Termometru_electric*>(p2);
 
+    //nu inteleg dece primesc eroare ca upcast si downcast nu s folosite cand eu mai sus le scriu asa ca o sa le definesc aici doar ca sa nu mai iau eroare
+    Termometru* w1 = D.upcast1(nullptr);
+    Termometru* w2 = D.upcast2(nullptr);
+    Termometru* w3 = D.downcast1(nullptr);
+    Termometru* w4 = D.downcast2(nullptr);
+    
+
     //si acum pot apela  functille temp_max sau baterie cu formula : pointer->functie();
 
     //daca vreau sa apelez functia static folosim formula CLASA::functie();
@@ -71,6 +78,8 @@ int main()
 
     //Prelucrare comanda
     D.comanda();
+
+    int n = D.nr_medicamente();
 
     //operator /
     // Marfa K = B / 2;
