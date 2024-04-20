@@ -8,7 +8,7 @@ class Termometru_electric : public Termometru {
 private:
     int capacitate;
 public:
-    Termometru_electric(const std::string firma, int pret, int capacitate);
+    Termometru_electric(const std::string& firma, int pret, int capacitate);
 
     Termometru_electric(const Termometru_electric& T);
 
