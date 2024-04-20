@@ -18,7 +18,6 @@ public:
 
     void baterie() const override;
 
-    Termometru* copie() const override;
 };
 
 #endif
