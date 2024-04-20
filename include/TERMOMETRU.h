@@ -21,6 +21,7 @@ public:
 
     virtual void baterie() const = 0;
 
+    virtual Termometru* copie() const = 0;
 
     std::string getFirma() const;
 
