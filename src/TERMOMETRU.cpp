@@ -1,4 +1,4 @@
-#include "TERMOMETRU.h"
+#include <TERMOMETRU.h>
 
 Termometru::Termometru(const std::string& firma1, int pret1) : firma(firma1), pret(pret1) {}
 
