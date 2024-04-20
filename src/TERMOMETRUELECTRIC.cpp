@@ -1,4 +1,4 @@
-#include "Termometru_electric.h"
+#include "TERMOMETRUELECTRIC.h"
 
 Termometru_electric::Termometru_electric(const std::string firma, int pret, int capacitate) : Termometru(firma, pret), capacitate(capacitate) {}
 
