@@ -2,6 +2,8 @@
 #define MARFA_H
 
 #include <string>
+#include <iostream>
+
 
 class Marfa {
 private:
