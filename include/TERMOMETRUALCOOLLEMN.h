@@ -6,7 +6,7 @@
 
 class Termometru_alcool_lemn : public Termometru {
 public:
-    Termometru_alcool_lemn(const std::string firma, int pret);
+    Termometru_alcool_lemn(const std::string& firma, int pret);
 
     Termometru_alcool_lemn(const Termometru_alcool_lemn& T);
 
