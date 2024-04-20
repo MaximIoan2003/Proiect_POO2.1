@@ -2,6 +2,8 @@
 #define TERMOMETRU_H
 
 #include <string>
+#include <iostream>
+#include <TERMOMETRU.h>
 
 class Termometru {
 private:
