@@ -22,7 +22,7 @@ void Termometru_electric::temp_max() const {
 }
 
 void Termometru_electric::baterie() const {
-    std::cout << "Termometrul " << getFirma() << " are o capacitate la baterie de : " << cap();
+    std::cout << "Termometrul " << getFirma() << " are o capacitate la baterie de : " << cap() << " si costa : " << getPret();
 }
 
 Termometru* Termometru_electric::copie() const {
