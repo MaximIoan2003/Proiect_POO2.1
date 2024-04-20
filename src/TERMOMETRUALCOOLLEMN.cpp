@@ -1,6 +1,6 @@
 #include "TERMOMETRUALCOOLLEMN.h"
 
-Termometru_alcool_lemn::Termometru_alcool_lemn(const std::string firma, int pret) : Termometru(firma, pret) {}
+Termometru_alcool_lemn::Termometru_alcool_lemn(const std::string& firma, int pret) : Termometru(firma, pret) {}
 
 Termometru_alcool_lemn::Termometru_alcool_lemn(const Termometru_alcool_lemn& T) : Termometru(T) {}
 
