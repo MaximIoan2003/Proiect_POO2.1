@@ -3,7 +3,6 @@
 
 #include <string>
 #include <iostream>
-#include <TERMOMETRU.h>
 
 class Termometru {
 private:
