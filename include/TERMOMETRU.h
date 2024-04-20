@@ -8,7 +8,7 @@ private:
     std::string firma;
     int pret;
 public:
-    Termometru(const std::string firma1, int pret1);
+    Termometru(const std::string& firma1, int pret1);
 
     Termometru(const Termometru& T);
 
