@@ -1,4 +1,4 @@
-#include "Marfa.h"
+#include "MARFA.h"
 
 Marfa::Marfa() : medicamente(""), pret_actual(0) {}
 
