@@ -4,8 +4,8 @@
 #include <iostream>
 #include <string>
 #include <vector>
-#include "Marfa.h"
-#include "Termometru.h"
+#include "MARFA.h"
+#include "TERMOMETRU.h"
 
 class Catalog_online {
 private:
