@@ -1,7 +1,7 @@
 #ifndef TERMOMETRUALCOOLLEMN_H
 #define TERMOMETRUALCOOLLEMN_H
 
-#include "Termometru.h"
+#include "TERMOMETRU.h"
 #include <iostream>
 
 class Termometru_alcool_lemn : public Termometru {
