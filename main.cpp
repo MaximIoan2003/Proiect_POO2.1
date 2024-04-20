@@ -80,6 +80,10 @@ int main()
     D.comanda();
 
     int n = D.nr_medicamente();
+    if(n >= 0) {
+        continue;
+    }
+    
 
     //operator /
     // Marfa K = B / 2;
