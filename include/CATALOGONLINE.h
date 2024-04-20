@@ -6,6 +6,8 @@
 #include <vector>
 #include <MARFA.h>
 #include <TERMOMETRU.h>
+#include <TERMOMETRUELECTRIC.h>
+#include <TERMOMETRUALCOOLLEMN.h>
 
 class Catalog_online {
 private:
