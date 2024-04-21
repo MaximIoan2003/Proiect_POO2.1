@@ -5,7 +5,7 @@
 #ifndef TERMOMETRU_ELECTRIC_H
 #define TERMOMETRU_ELECTRIC_H
 
-#include "Termometru.h"
+#include <Termometru.h>
 #include <iostream>
 
 class Termometru_electric : public Termometru {

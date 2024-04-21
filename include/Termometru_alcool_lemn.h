@@ -5,7 +5,7 @@
 #ifndef TERMOMETRU_ALCOOL_LEMN_H
 #define TERMOMETRU_ALCOOL_LEMN_H
 
-#include "Termometru.h"
+#include <Termometru.h>
 #include <iostream>
 
 class Termometru_alcool_lemn : public Termometru {

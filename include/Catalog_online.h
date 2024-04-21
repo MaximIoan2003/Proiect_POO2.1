@@ -9,8 +9,8 @@
 #include <vector>
 #include <iostream>
 #include "Marfa.h"
-#include "Termometru.h"
-#include "Termometru_alcool_lemn.h"
+#include <Termometru.h>
+#include <Termometru_alcool_lemn.h>
 #include "Termometru_electric.h"
 
 class Catalog_online {

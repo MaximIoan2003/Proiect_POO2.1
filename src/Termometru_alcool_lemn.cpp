@@ -1,7 +1,7 @@
 //
 // Created by copac on 4/20/2024.
 //
-#include "Termometru_alcool_lemn.h"
+#include <Termometru_alcool_lemn.h>
 
 Termometru_alcool_lemn::Termometru_alcool_lemn(const std::string& firma, int pret) : Termometru(firma, pret) {}
 
