@@ -1,4 +1,7 @@
-#include <MARFA.h>
+//
+// Created by copac on 4/20/2024.
+//
+#include "Marfa.h"
 
 Marfa::Marfa() : medicamente(""), pret_actual(0) {}
 
