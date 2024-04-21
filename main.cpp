@@ -56,6 +56,7 @@ int main() {
     }
 
 
+
     // Initializam H prin operatorul +
     Marfa H = C + E;
     D.adaugare_medicamente(H);
@@ -77,5 +78,10 @@ int main() {
     // Marfa K = B / 2;
     // D.adaugare_medicamente(K);
 
+    Termometru* copie1 = T3.copie();
+    int n = D.nr_medicamente();
+    if(n > 0) {
+        std::cout << " ";
+    }
     return 0;
 }

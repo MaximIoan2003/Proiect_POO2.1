@@ -35,8 +35,6 @@ public:
     void adaugare_termometre(Termometru* t);
     Termometru_alcool_lemn* upcast1(Termometru* t);
     Termometru_electric* upcast2(Termometru* t);
-    Termometru* downcast1(Termometru_alcool_lemn* t);
-    Termometru* downcast2(Termometru_electric* t);
     void afisare_catalog();
     void comanda();
     static int nr_medicamente();

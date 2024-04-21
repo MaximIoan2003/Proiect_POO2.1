@@ -60,13 +60,6 @@ Termometru_electric* Catalog_online::upcast2(Termometru* t) {
     return dynamic_cast<Termometru_electric*>(t);
 }
 
-Termometru* Catalog_online::downcast1(Termometru_alcool_lemn* t) {
-    return dynamic_cast<Termometru*>(t);
-}
-
-Termometru* Catalog_online::downcast2(Termometru_electric* t) {
-    return dynamic_cast<Termometru*>(t);
-}
 
 void Catalog_online::afisare_catalog() {
     std::cout << "Mai jos veti avea catalogul cu medicamente in format produs - pret" << std::endl;
