@@ -82,6 +82,7 @@ int main() {
     if(copie1 != nullptr) {
         std::cout << " ";
     }
+    delete copie1;
     int n = D.nr_medicamente();
     if(n > 0) {
         std::cout << " ";
