@@ -3,7 +3,7 @@
 //
 #include "Termometru.h"
 
-Termometru::Termometru(const std::string firma1, int pret1) : firma(firma1), pret(pret1) {}
+Termometru::Termometru(const std::string& firma1, int pret1) : firma(firma1), pret(pret1) {}
 
 Termometru::Termometru(const Termometru& T) : firma(T.firma), pret(T.pret) {}
 

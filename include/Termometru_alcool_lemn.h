@@ -16,7 +16,6 @@ public:
     ~Termometru_alcool_lemn();
     void temp_max() const override;
     void baterie() const override;
-    Termometru* copie() const override;
 };
 
 #endif

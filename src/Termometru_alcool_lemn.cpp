@@ -23,7 +23,3 @@ void Termometru_alcool_lemn::temp_max() const {
 void Termometru_alcool_lemn::baterie() const {
     std::cout << "Termometrul " << getFirma() << " nu are baterie !";
 }
-
-Termometru* Termometru_alcool_lemn::copie() const {
-    return new Termometru_alcool_lemn(*this);
-}

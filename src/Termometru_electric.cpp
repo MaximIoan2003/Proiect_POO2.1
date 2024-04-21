@@ -5,7 +5,7 @@
 
 Termometru_electric::Termometru_electric(const std::string& firma, int pret, int capacitate) : Termometru(firma, pret), capacitate(capacitate) {}
 
-Termometru_electric::Termometru_electric(const Termometru_electric& T) : Termometru(T) {}
+Termometru_electric::Termometru_electric(const Termometru_electric& T) : Termometru(T),capacitate(T.capacitate) {}
 
 Termometru_electric& Termometru_electric::operator=(const Termometru_electric& T) {
     if(this != &T) {

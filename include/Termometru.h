@@ -13,7 +13,7 @@ private:
     int pret;
 
 public:
-    Termometru(const std::string firma1, int pret1);
+    Termometru(const std::string& firma1, int pret1);
     Termometru(const Termometru& T);
     Termometru& operator=(const Termometru& T);
     virtual ~Termometru();

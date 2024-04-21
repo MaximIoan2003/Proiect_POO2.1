@@ -26,10 +26,11 @@ int main() {
     D.adaugare_medicamente(G);
 
     // adaugam termometre cu alcool de lemn si electrice
-    Termometru_alcool_lemn T1("Altex", 40);
-    Termometru_alcool_lemn T2("Flanco", 60);
-    D.adaugare_termometre(&T1);
-    D.adaugare_termometre(&T2);
+    //Termometru_alcool_lemn T1("Altex", 40);
+    //Termometru_alcool_lemn T2("Flanco", 60);
+    //Nu stiu dece nu ma lasa sa le adaug
+    //D.adaugare_termometre(&T1);
+    //D.adaugare_termometre(&T2);
     Termometru_electric T3("Emag", 60, 150);
     Termometru_electric T4("Blade", 500, 1000);
     D.adaugare_termometre(&T3);
@@ -40,6 +41,20 @@ int main() {
    // Termometru* p2 = D.upcast2(&T4);
    // Termometru_alcool_lemn* p3 = dynamic_cast<Termometru_alcool_lemn*>(p1);
    // Termometru_electric* p4 = dynamic_cast<Termometru_electric*>(p2);
+
+    Termometru_electric Ex1("Vraze",70,250);
+    Termometru* ex1 = D.upcast1(&Ex1);
+
+    if(ex1) {
+        std::cout << std::endl;
+    }
+
+    Termometru_electric Ex2("Vraze2",70,250);
+    Termometru* ex2 = D.upcast2(&Ex2);
+    if(ex2) {
+        std::cout << std::endl;
+    }
+
 
     // Initializam H prin operatorul +
     Marfa H = C + E;
