@@ -117,14 +117,7 @@ FetchContent_MakeAvailable(googletest)
 ###############################################################################
 
 # NOTE: update executable name in .github/workflows/cmake.yml:25 when changing name here
-add_executable(${PROJECT_NAME} main.cpp ${SOURCES}
-        include/Marfa.h
-        include/Termometru.h
-        include/Termometru_alcool_lemn.h
-        include/Termometru_electric.h
-        include/Marfa.h
-        include/Catalog_online.h)
-
+add_executable(${PROJECT_NAME} main.cpp ${SOURCES})
 ###############################################################################
 
 # target definitions
@@ -180,11 +173,6 @@ add_executable(
         ${HEADERS}
         ${TESTS}
         ${SOURCES}
-        src/Termometru.cpp
-        src/Termometru_alcool_lemn.cpp
-        src/Termometru_electric.cpp
-        src/Marfa.cpp
-        src/Catalog_online.cpp
 )
 
 target_link_libraries(
