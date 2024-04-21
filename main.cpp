@@ -79,6 +79,9 @@ int main() {
     // D.adaugare_medicamente(K);
 
     Termometru* copie1 = T3.copie();
+    if(copie1 != nullptr) {
+        std::cout << " ";
+    }
     int n = D.nr_medicamente();
     if(n > 0) {
         std::cout << " ";
