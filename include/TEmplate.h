@@ -22,7 +22,7 @@ class Template2 : public Template1<T> {
 private:
     T ex;
 public:
-    Template2(const T& ex) : ex(ex) {}
+    explicit Template2(const T& ex) : ex(ex) {}
 
     void afisare() const override {
         std::cout << ex << std::endl;

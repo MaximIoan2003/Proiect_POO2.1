@@ -10,3 +10,7 @@ for (const auto& x : ex) {
     x->afisare();
     }
 }
+
+template<typename T>
+void Template1<T>::afisare() const {
+}
