@@ -13,6 +13,7 @@
 template<typename T>
 class Template1 {
 public:
+    virtual ~Template1() {}
     virtual void afisare() const = 0;
 };
 
