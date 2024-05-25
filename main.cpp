@@ -1,5 +1,8 @@
 #include <iostream>
+#include <string>
 #include "Catalog_online.h"
+#include "TEmplate.h"
+#include "TEmplate.cpp"
 
 int main() {
     // Toate cerintele din tema sunt prezente in clasa Catalog_online/Marfa;
@@ -87,5 +90,22 @@ int main() {
     if(n > 0) {
         std::cout << " ";
     }
+
+    std::list<Template1<int>*> lista_int;
+    lista_int.push_back(new Template2<int>(1));
+    lista_int.push_back(new Template2<int>(2));
+
+    std::list<Template1<std::string>*> lista_string;
+    lista_string.push_back(new Template2<std::string>("a"));
+    lista_string.push_back(new Template2<std::string>("b"));
+
+    afisare(lista_int);
+    afisare(lista_string);
+
+
+
+
+
+
     return 0;
 }
