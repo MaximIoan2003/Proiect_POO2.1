@@ -77,7 +77,7 @@ int main() {
     // Prelucrare comanda
     D.comanda();
 
-    // operator /
+    // operator //
     // Marfa K = B / 2;
     // D.adaugare_medicamente(K);
 
