@@ -102,6 +102,14 @@ int main() {
     afisare(lista_int);
     afisare(lista_string);
 
+    for(auto p : lista_int) {
+        delete p;
+    }
+
+    for(auto p : lista_string) {
+        delete p;
+    }
+
 
 
 
